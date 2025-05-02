@@ -1,60 +1,21 @@
-# FIL-ROUGE MODULE REACT
+# 🎮 Project Pokémon
 
-Créer une application React avec des routes de base, un design en SASS, et la consommation d'une API publique.
+**Project Pokémon** est une application web développée avec **React** qui permet aux utilisateurs de consulter et de gérer des données Pokémon en utilisant une API publique. 
+Ce projet a été réalisé dans le cadre d'un module de formation visant à maîtriser les bases de React, la gestion des routes, l'utilisation du local storage et le déploiement d'applications web.
 
-## Contexte
+## 🚀 Fonctionnalités
 
-Vous développez une application pour afficher et gérer des éléments récupérés d'une API publique. Le projet peut simuler un catalogue de films, une galerie d'art ou toute autre base de données interactive.
-Une base de travail est donnée, correspondant à l'exercice 01 (Fetch All initial, Page d'accueil et Card Component).
+- Affichage d'une liste de Pokémon récupérée depuis une API publique.
+- Navigation entre différentes pages grâce à React Router.
+- Gestion des favoris avec stockage local via le `localStorage`.
+- Interface utilisateur stylisée avec **SASS (SCSS)**.
+- Déploiement de l'application sur un service cloud.
 
----
+## 🛠️ Technologies utilisées
 
-## Objectif principal
+- React
+- React Router Dom
+- SASS (SCSS)
+- Vite
+- [PokéAPI](https://pokeapi.co/) pour les données Pokémon
 
-- Comprendre et maîtriser les bases de React (`state/props/events`).
-- Manipuler un routeur `SPA`.
-- Utiliser le `Local Storage` pour gérer les utilisateurs.
-- Styliser une application avec `SASS (scss)`.
-- Déployer une application sur un service cloud.
-
----
-
-## étapes
-
-1. Modélisation du plan du site (maquette/schema).
-2. Définition des routes et interfaces principales.
-3. Mise en place de la gestion utilisateur avec `Local Storage` (connexion et inscription).
-4. Création d’une interface d'administration avec un CRUD complet.
-5. Optimisation et déploiement de l'application sur un service cloud (Vercel).
-
----
-
-*Une validation par le formateur de l'étape terminée doit être effectué avant de passer à l'étape suivante*
-
----
-
-## Livrables attendus
-
-Une application fonctionnelle comprenant :
-
-- Une **page de liste** affichant les éléments récupérés d’une API avec un aperçu (nom, image, etc.).
-- Une **page de détails** affichant les informations détaillées d’un élément (description, caractéristiques, etc.).
-- Une **page de connexion** et une **page de création de compte**, toutes deux utilisant le `Local Storage`.
-- Une **page de profil utilisateur** permettant de modifier ses données.
-- Un **design agréable** réalisé avec `SASS`.
-- Une application déployée sur un service cloud.
-
----
-
-## Ressources utiles
-
-### API
-
-- [TMDb](https://developers.themoviedb.org/3/getting-started)
-- [PokeAPI](https://pokeapi.co/)
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
-- ou autre ...
-
-### CLOUD
-
-- [Vercel](https://vercel.com/) pour le déploiement.
